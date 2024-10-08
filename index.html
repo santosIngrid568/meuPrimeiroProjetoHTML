@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <style>
+
+form{
+     text-aling: center;
+}
+
+
+p {
+    margin: 10px 0;
+}
+
+
+body {
+      background:  beige:
+      font-family: aeial, sans-serif;
+      font-size: 16px;
+}
+
+
+h1  {
+     clor: #333:
+     font-size: 24 px;
+}
+
+
+button {
+        background-clor: #4CAF50:
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+}
+
+
+
+    </style>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <form action="#" method="post">
+
+            <fieldset>
+
+                <legend>Login</legend>
+
+                <label for="nomePessoa">Nome Completo:</label><br>
+                <input type="text" name="nomelPessoa"><br><br>
+
+                <label for="emailPessoa">Email:</label><br>
+                <input type="email" name="emailPessoa"><br><br>
+
+                <label for="senhaPessoa">Senha:</label><br>
+                <input type="password" name="senhaPessoa" required><br><br>
+                
+                <label for="confirmarsenhaPessoa">Confirmar Senha:</label><br>
+                <input type="password" name="confirmarsenhaPessoa" required:><br><br>
+                   
+                <label for="perfilPessoa">Perfil:</label><br>
+                <select name="perfilPessoa" required>
+                    <option value="professor">Professor</option>
+                    <option value="administrador">administrador</option>
+                    <option value="jogador">Jogador</option>
+                </select><br><br>
+
+                <input type="submit" nmae="btLogin" value="Login"><br><br>
+
+          </fieldset>
+     </form>
+</body>
+</html>
